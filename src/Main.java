@@ -35,14 +35,16 @@ public class Main {
 
 
         //Regular expression
-        Pattern p = Pattern.compile(".s");
-        Matcher m = p.matcher("as");
-        boolean b = m.matches();
-        System.out.println(b);
+//        Pattern p = Pattern.compile(".s");
+//        Matcher m = p.matcher("as");
+//        boolean b = m.matches();
+//        System.out.println(b);
 
         // cách 3
-        boolean bool = Pattern.matches(".s","as");
-        System.out.println(bool);
+//        boolean bool = Pattern.matches(".s","as");
+//        System.out.println(bool);
+        // pattern.matches(string)
+
 
 
     }
